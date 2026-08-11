@@ -1,0 +1,18 @@
+// 1. Load Bootstrap and Override Variables using 'with'
+@use "node_modules/bootstrap/scss/bootstrap" as bootstrap with (
+  $font-family-base: ("Bebas Neue", sans-serif),
+  $navbar-brand-font-size: 2rem,
+  $nav-link-font-size: 2rem
+);
+
+// 2. Load Bootstrap Icons cleanly
+@use "node_modules/bootstrap-icons/font/bootstrap-icons.scss";
+
+// 3. Custom Utility Classes & Selectors
+header nav {
+  border-bottom: 10px solid black;
+}
+
+footer {
+  border: 5px solid black;
+}
