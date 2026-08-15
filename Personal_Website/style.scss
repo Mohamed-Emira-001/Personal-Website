@@ -9,18 +9,15 @@
 @use "node_modules/bootstrap-icons/font/bootstrap-icons.scss";
 
 // 3. Custom Utility Classes & Selectors
+html {
+  scroll-behavior: smooth;
+}
+
 header nav {
   border-bottom: 10px solid black;
 }
 
-footer {
-  border: 5px solid black;
-}
-section div{
-  background-color: red;
-
-}
-h1.myname {
+h1.mytitle {
   font-size: 5rem;
   color: black;
 }
